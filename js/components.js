@@ -11,22 +11,27 @@ components.register = `
                 <div class = 'name-wrapper'>
                     <div class='input-wrapper'>
                         <input class='input' type='text' name='firstName' placeholder='First Name' />
+                        <div id="firstName-error" class="error"></div>
                     </div>
                     <div class='input-wrapper'>
                         <input class='input' type='text' name='lastName' placeholder='Last Name' />
+                        <div id="lastName-error" class="error"></div>
                     </div>
                 </div>
 
                 <div class='input-wrapper'>
                     <input class='input' type='email' name='email' placeholder='Email' />
+                    <div id="email-error" class="error"></div>
                 </div>
 
                 <div class='input-wrapper'>
-                    <input class='input' type='password' name='email' placeholder='Password' />
+                    <input class='input' type='password' name='password' placeholder='Password' />
+                    <div id="password-error" class="error"></div>
                 </div>
 
                 <div class='input-wrapper'>
                     <input class='input' type='password' name='confirmPassword' placeholder='Confirm password' />
+                    <div id="confirmPassword-error" class="error"></div>
                 </div>
 
                 <div class='input-wrapper register-footer'>

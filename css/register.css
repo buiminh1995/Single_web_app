@@ -1,0 +1,11 @@
+.register-container {
+	width:100%;
+	min-width: 400px;
+	height: 100vh;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: relative;
+	background: url("https://filmdaily.co/wp-content/uploads/2020/04/cute-cat-videos-lede.jpg") no-repeat center center;
+	background-size: cover;
+}
