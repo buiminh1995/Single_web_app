@@ -7,11 +7,11 @@ view.setActiveScreen = (screenName) => {
             document.getElementById('app').innerHTML = components.register;
 
             //add register button listener
-            document.getElementById('already-have-an-account').addEventListener('click', () => {
+            document.getElementById('already-have-an-account').addEventListener('click', () => {
                 view.setActiveScreen('login');
             
             const registerForm = document.getElementById('register-form');
-            registerForm.addEventListener('submit', (e) => {})
+            registerForm.addEventListener('submit', (e) => {})
             });
             break;
     }
