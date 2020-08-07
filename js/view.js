@@ -28,6 +28,5 @@ view.setActiveScreen = (screenName) => {
 
 }
 view.setMessage = (elementId, message ='') => {
-    console.log(2);
     document.getElementById(id).innerText = message;
 }

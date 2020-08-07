@@ -4,7 +4,7 @@ components.register = `
     <div class = 'form-wrapper'>
         <div class = 'logo'>
             <span> Minh Bui's Chat </span>
-        <div>
+        </div>
 
         <div class = 'form-container'>
             <form id = 'register-form'>
